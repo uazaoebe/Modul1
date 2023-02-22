@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Data list</title>
+</head>
+<body>
+    <datalist id="id-kontak">
+        <option value="Jhonny@gmail.com" label="Joni">
+        <option value="Sins@gmail.com" label="Sins">
+        <option value="Angop@hotmail.com" label="Ngops">
+    </datalist>
+
+    <form id="Sormulir" action="submit.php" method="post">
+        <label>Kontak:</label>
+        <input type="email" name="email" list="id-kontak">
+        <input type="submit" value="Kirim">
+    </form>
+
+</body>
+</html>
